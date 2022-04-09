@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "electron": "^18.0.1",
+    "mysql2": "^2.3.3"
+  },
+  "name": "tareaunidad4",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Actividad 4</title>
+    </head>
+    <body>
+        <label>animal_type (cat, dog, horse o snail)</label>
+        <br />
+        <input id="animalType" />
+        <br />
+        <label>amount (número)</label>
+        <br />
+        <input id="amount" />
+        <br />
+        <br />
+        <button id="peticion">Realizar Solicitud</button>
+        <button id="enviar">Guardar en base de datos</button>
+        <br />
+        <br />
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>type</th>
+                    <th>text</th>
+                    <th>user</th>
+                    <th>createdAt</th>
+                    <th>updatedAt</th>
+                </tr>
+            </thead>
+            <tbody id="tbodyResultados"></tbody>
+        </table>
+        <br />
+        <span id="textoUrl"></span>
+        <script type="text/javascript" src="index.js"></script>
+        <style>
+            table, td, th {
+                border: solid 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+        </style>
+    </body>
+</html>
